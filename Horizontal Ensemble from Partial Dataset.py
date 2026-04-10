@@ -11,7 +11,7 @@ from keras.callbacks import ModelCheckpoint
 from keras.models import load_model
 
 # Завантаження даних
-data = pd.read_csv("A:/loan_data.csv")
+data = pd.read_csv("") #вказати шлях loan_data.csv
 
 # Попередня обробка даних
 # Заповнення пропущених значень
